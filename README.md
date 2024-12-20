@@ -64,3 +64,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+### Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/InvoicingSystem.git**
+- **Open the terminal and change the directory to the project directory**
+- **Create .env and copy .env.example**
+- **Install dependencies - composer install**
+- **Make sure you have your key generated. If not, Generate key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Run project - php artisan serve**
+
+### URL of Project 
+- **Visit the url http://127.0.0.1:8000/invoices/index to get into the application. This page is the index page. In this page, all the invoices generated are displayed in the table. There is two action button, View Button is for view the invoice details and the Download Button is for downloading the invoices.**
+- **Above the table in index page, there is button named Create Invoice, by clicking that button you will redirect to invoice creation page. There you give the details that asked in the form. Fill up the details and click submit invoice button to submit the invoices. Click Home button top of the page redirect you to index page.**
